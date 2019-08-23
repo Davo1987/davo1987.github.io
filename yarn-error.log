@@ -1,0 +1,75 @@
+Arguments: 
+  H:\nodejs\node.exe H:\Yarn\bin\yarn.js add holderjs
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\program files\microsoft sql server\110\tools\binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Seagate\SnapAPI\;C:\WINDOWS\System32\OpenSSH\;H:\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;H:\nodejs\;H:\PostgreSQL\11\bin;H:\Yarn\bin\;C:\Users\jamie\.windows-build-tools\python27;C:\Users\jamie\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\jamie\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\jamie\AppData\Roaming\npm\node_modules\.bin;C:\Users\jamie\AppData\Local\Microsoft\WindowsApps;C:\Users\jamie\AppData\Local\GitHubDesktop\bin;H:\Microsoft VS Code\bin;C:\Users\jamie\AppData\Local\Microsoft\WindowsApps;C:\Users\jamie\AppData\Roaming\npm;C:\Users\jamie\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'H:\Web Development\walkingwonders\Davo1987.github.io\node_modules\accepts\node_modules\mime-db'
+
+npm manifest: 
+  {
+      "title": "Landing Page",
+      "name": "startbootstrap-landing-page",
+      "version": "5.0.4",
+      "scripts": {
+          "start": "gulp watch"
+      },
+      "description": "An HTML landing page template built with Bootstrap",
+      "keywords": [
+          "css",
+          "sass",
+          "html",
+          "responsive",
+          "theme",
+          "template"
+      ],
+      "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+      "bugs": {
+          "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
+          "email": "feedback@startbootstrap.com"
+      },
+      "license": "MIT",
+      "author": "Start Bootstrap",
+      "contributors": [
+          "David Miller (http://davidmiller.io/)"
+      ],
+      "repository": {
+          "type": "git",
+          "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+      },
+      "dependencies": {
+          "@fortawesome/fontawesome-free": "5.8.1",
+          "bootstrap": "4.3.1",
+          "holderjs": "^2.9.6",
+          "jquery": "^3.4.1",
+          "simple-line-icons": "^2.4.1"
+      },
+      "devDependencies": {
+          "browser-sync": "^2.26.5",
+          "del": "4.0.0",
+          "gulp": "4.0.0",
+          "gulp-autoprefixer": "6.0.0",
+          "gulp-clean-css": "4.0.0",
+          "gulp-header": "2.0.7",
+          "gulp-plumber": "^1.2.1",
+          "gulp-rename": "1.4.0",
+          "gulp-sass": "4.0.2",
+          "merge-stream": "^1.0.1"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
