@@ -1,0 +1,8 @@
+/* cards on index.html */
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
