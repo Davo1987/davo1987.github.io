@@ -34,7 +34,7 @@
         "holderjs": "file:holderjs",
         "jquery": "^3.5.1",
         "lightbox2": "^2.11.1",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.13",
         "ol": "^6.3.1",
         "popper": "^1.0.1",
         "simple-line-icons": "^2.4.1"
