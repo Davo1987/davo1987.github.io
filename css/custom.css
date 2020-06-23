@@ -6,3 +6,9 @@
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }
+
+/* Lightbox img properties */
+.lightbox-g {
+    width: 300px;
+    height: 300px;
+}

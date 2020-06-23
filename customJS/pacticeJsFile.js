@@ -1,1 +1,1 @@
-alert("hello this is a test");
+alert("This Web page is Work In Progress and you may see errors");
