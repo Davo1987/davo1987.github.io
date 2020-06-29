@@ -18,3 +18,7 @@
     height: 45vw;
     object-fit: cover;
 } */
+
+#mapid {
+    height: 500px;
+}
