@@ -9,8 +9,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZGF2bzE5ODciLCJhIjoiY2tjMGY1MDVnMWoxaDM0bXg1dTc0c3BicCJ9.btpO9V_p3D1_OS6cfhml2Q'
 }).addTo(mymap);
 
-var marker = L.marker([54.154600, -2.471470]).addTo(mymap);
-
-// marker.bindPopup('Start of Ingleton Falls trail!').openPopup(mymap);
-marker.bindTooltip("Start of Ingleton Falls trail!").openTooltip(mymap);
+var ingletonStart = L.marker([54.154600, -2.471470]).bindPopup('Start of Ingleton Falls trail').addTo(mymap);
 

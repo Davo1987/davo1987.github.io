@@ -9,8 +9,10 @@
 
 /* Lightbox img properties */
 .lightbox-g {
-    width: 300px;
-    height: 300px;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    padding: 2px;
 }
 
 /* Modal Carousel Lightbox */
@@ -19,6 +21,11 @@
     object-fit: cover;
 } */
 
+/* needs some optimising 18/1/2019 */
 #mapid {
     height: 500px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }

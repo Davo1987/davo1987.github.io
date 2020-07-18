@@ -9,8 +9,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZGF2bzE5ODciLCJhIjoiY2tjMGY1MDVnMWoxaDM0bXg1dTc0c3BicCJ9.btpO9V_p3D1_OS6cfhml2Q'
 }).addTo(mymap);
 
-var marker = L.marker([54.072838, -2.158002]).addTo(mymap);
-
-// marker.bindPopup('Start of Ingleton Falls trail!').openPopup(mymap);
-marker.bindTooltip("Malham Cove!").openTooltip(mymap);
+var malhamCove = L.marker([54.072838, -2.158002]).bindPopup('Malham Cove').addTo(mymap);
 
