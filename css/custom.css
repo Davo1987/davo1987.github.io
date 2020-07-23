@@ -22,6 +22,7 @@
     height: 50vh;
     border-radius: 10px;
     object-fit: cover;
+    justify-content: space-evenly;
 }
 
 /* Modal Carousel Lightbox */
@@ -36,4 +37,11 @@
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+
+/* top of page blurb */
+.blurb {
+    padding: 5px;
+    margin-top: 5px;
+    width: 65vw;    
 }

@@ -22,7 +22,8 @@
   <link href="/css/landing-page.min.css" rel="stylesheet">
   <link href="/css/landing-page.css" rel="stylesheet">
   <link href="/css/custom.css" rel="stylesheet">
-  <link href="/lightbox2-2.11.1/dist/css/lightbox.css" rel="stylesheet"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  <link href="/lightbox2-2.11.1/dist/css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
 crossorigin=""/>
@@ -47,27 +48,29 @@ crossorigin=""/>
     </div>
   </nav>
 
-        <!-- Image gallery 
-        This is a bog standard gallery with no lightbox pop out images-->
-        <section class="">
-          <div class="container mt-1 p-3">
-            <div class="row no-gutters">
-              <div class="col-lg-4 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="/img/SE1web.jpg"></div>
-              <div class="col-lg-4 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="/img/RT2UllsWeb.jpg"></div>
-              <div class="col-lg-4 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="/img/catstyecamWeb.jpg"></div>
-              <div class="col-lg-4 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="/img/hellWeb.jpg"></div>
-              <div class="col-lg-4 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="/img/swirraledgeWeb.jpg"></div>
-            </div>
-            <!-- <div class="row no-gutters">
-                <div class="col-lg-2 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="holder.js/150x150"></div>
-                <div class="col-lg-2 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="holder.js/150x150"></div>
-                <div class="col-lg-2 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="holder.js/150x150"></div>
-                <div class="col-lg-2 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="holder.js/150x150"></div>
-                <div class="col-lg-2 col-sm-4 my-auto p-1"><img class="img-thumbnail" src="holder.js/150x150"></div>              
-            </div>   -->
-            </div>
-          </div>
-        </section>
+    <!-- Blurb -->
+    <section class="">
+      <div class="container p-2">
+        <p class="blurb">Helvellyn is the third-highest point both in England and in the 
+          Lake District, and access to Helvellyn is easier than to the two higher peaks 
+          of Scafell Pike and Sca Fell. The scenery includes three deep glacial coves 
+          and two sharp-topped ridges on the eastern side (Striding Edge and Swirral Edge).  
+          Many routes up the mountain are possible so that it may be approached 
+          from all directions.<hr></p>
+      </div>
+    </section>
+
+
+  <!-- Image Gallery Lightbox not working. Poss pics need re-sizing in lightroom 23/7/20-->
+  <div class="container p-2">
+    <div class="d-flex flex-wrap mx-auto">
+      <div class="p-2"><a href="/img/SE1web.jpg" data-lightbox="helvellyn" data-title="My caption"><img class="lb" src="/img/SE1web.jpg"></a></div>
+      <div class="p-2"><a href="/img/RT2UllsWeb.jpg" data-lightbox="helvellyn" data-title="My caption"><img class="lb" src="/img/RT2UllsWeb.jpg"></a></div>
+      <div class="p-2"><a href="/img/catstyecamWeb.jpg" data-lightbox="helvellyn" data-title="My caption"><img class="lb" src="/img/catstyecamWeb.jpg"></a></div>
+      <div class="p-2"><a href="/img/hellWeb.jpg" data-lightbox="helvellyn" data-title="My caption"><img class="lb" src="/img/hellWeb.jpg"></a></div>
+      <div class="p-2"><a href="/img/swirraledgeWeb.jpg" data-lightbox="helvellyn" data-title="My caption"><img class="lb" src="/img/swirraledgeWeb.jpg"></a></div>
+    </div>
+  </div>
 
             <!-- Map -->
     <section>
@@ -133,8 +136,6 @@ crossorigin=""/>
     </footer>
   
     <!-- Bootstrap core JavaScript -->
-    <script src="imsky-holder-8220898/holder.js"></script>
-    <script src="/holderjs/holder.js"></script>
     <script src="/lightbox2-2.11.1/dist/js/lightbox.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
