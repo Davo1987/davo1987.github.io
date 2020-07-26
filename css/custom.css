@@ -16,10 +16,10 @@
     border-radius: 5%;
 }
 
-/* scafell lightbox settings */
+/* lightbox settings */
 .lb {
-    width: 50vh;
-    height: 50vh;
+    width: 35vw;
+    height: 40vh;
     border-radius: 10px;
     object-fit: cover;
     justify-content: space-evenly;
@@ -43,5 +43,20 @@
 .blurb {
     padding: 5px;
     margin-top: 5px;
-    width: 65vw;    
+    width: 90%;    
+}
+
+/* download buttons */
+.btnDownload {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+  /* Darker background on mouse-over */
+.btnDownload:hover {
+    background-color: RoyalBlue;
 }
