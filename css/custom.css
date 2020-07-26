@@ -19,10 +19,10 @@
 /* lightbox settings */
 .lb {
     width: 35vw;
-    height: 40vh;
+    height: 35vh;
     border-radius: 10px;
     object-fit: cover;
-    justify-content: space-evenly;
+    
 }
 
 /* Modal Carousel Lightbox */
