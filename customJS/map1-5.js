@@ -12,13 +12,3 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var hodgeClose = L.marker([54.406193, -3.054618]).bindPopup('Hodge Close quarry').addTo(mymap);
 // Cathedral quarry
 var cathedral = L.marker([54.416064, -3.058785]).bindPopup('Cathedral quarry').addTo(mymap);
-
-// create a red polyline from an array of LatLng points
-var latlngs = [
-    [54.421257, -3.056081],
-    [54.418885, -3.057401],
-    [54.416956, -3.055620]
-];
-var polyline = L.polyline(latlngs, {color: 'blue'}).addTo(mymap);
-// zoom the map to the polyline
-map.fitBounds(polyline.getBounds());
